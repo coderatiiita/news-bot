@@ -1,7 +1,7 @@
 import logging
 
 from flask import Flask, request
-from telegram import Bot, Update
+from telegram import Bot, Update, ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, Dispatcher
 from utils import get_reply, fetch_news, topics_keyboard
 
