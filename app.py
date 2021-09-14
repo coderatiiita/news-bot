@@ -75,7 +75,7 @@ def error(bot, update):
 
 bot = Bot(TOKEN)
 try:
-    bot.set_webhook("https://2fcc-103-224-240-72.ngrok.io/" + TOKEN)
+    bot.set_webhook("https://damp-tundra-66701.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
